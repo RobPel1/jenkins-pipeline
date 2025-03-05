@@ -1,7 +1,7 @@
 pipeline{
     agent any
 
-    environet{
+    environment{
         AWS_REGION = 'us-east-1'
         IMAGE_ECR_REPO = '775796777787.dkr.ecr.us-east-1.amazonaws.com/jenkins-ci'
         ECR_REPO = '775796777787.dkr.ecr.us-east-1.amazonaws.com'
